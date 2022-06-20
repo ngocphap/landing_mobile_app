@@ -1,0 +1,261 @@
+/* trang app.css dùng để dựng thuộc tính của trang web chính */
+
+@font-face {
+    font-family: SpartanMB;
+    src: url('../fonts/SpartanMB-Medium.svg');
+    src: url('../fonts/SpartanMB-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: SpartanMB;
+    src: url('../fonts/SpartanMB-Bold.svg');
+    src: url('../fonts/SpartanMB-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+body {
+    
+    font-family: SpartanMB;
+    font-weight: 500;
+   /* /font-size: 15px; */
+}
+
+.dropdown-menu{
+    font-size: 16px;
+}
+div>p.h6 {
+    font-size: 11px;
+}
+
+div>p.h5 {
+    font-size: 15px;
+}
+
+a.h5 {
+    color: #21252cb8 !important;
+    font-size: 16px;
+}
+
+a.h6{
+    color: #21252c!important;
+    font-size: 15px;
+}
+
+
+ul {
+    list-style: none;
+}
+
+/* background */
+
+.bg-1 {
+    background-color: #1e2e50;
+}
+
+.bg-2 {
+    background-color: #ffffff;
+}
+
+.bg-3 {
+    background-color: #f6f9fc;
+}
+
+.bg-4 {
+    background-color: #6672e8;
+}
+
+.bg-5 {
+    background-color: #2083fe;
+}
+
+.bg-6 {
+    background-color: #B2DFDB;
+}
+.bg-7 {
+    background-color: #1e2e50;
+}
+/* text color */
+
+.text-1 {
+    color: #f1ffff;
+}
+
+.text-2 {
+    color: #ffffff;
+}
+
+.text-3 {
+    color: #dcf1ff;
+}
+
+.text-4 {
+    color: #1f2c9f;
+}
+
+.text-5 {
+    color: #758cb4;
+}
+
+.text-6 {
+    color: #7f8aea;
+}
+
+.text-7 {
+    color: #2083fe;
+}
+
+.text-8 {
+    color: #21252c;
+}
+
+.text-9 {
+    color: #2f3b7d;
+}
+
+.text-10 {
+
+    color: #15b183;
+}
+.text-11{
+    color: #d7dfdf;
+}
+.text-12{
+    color: #282626a1;
+}
+.text-13{
+    color: #1e2e50;
+}
+.badge {
+    color: #50c5ba;
+}
+
+/* ======= HEADER ====== */
+
+#header {
+    width: 100%;
+    padding: 0;
+}
+
+#menu-main-inertia a {
+    color: #f6f7f9;
+}
+
+#home-sub-menu a {
+   
+    font-weight: 500;
+    color: #2f3b7d;
+}
+
+#home-sub-menu a img {
+    padding-right: 10px;
+}
+
+#blog-sub-menu a {
+    color: #21252c9c;
+}
+
+#pages-sub-menu a {
+    color: #21252c9c;
+}
+
+/*  */
+
+#btn-buynow {
+    font-weight: 200;
+   
+    border: none;
+}
+
+#btn-buynow:hover {
+    background-color: #3055a9;
+    color: #dcf1ff;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+
+}
+.img-ecommerce {
+    width: 100%;
+}
+.img-themedocs {
+    width: 50px;
+}
+.dropdown-submenu>.dropdown-menu{
+    display: none;
+    border: none;
+}
+#nav-ecommerce{
+    position: initial;
+   
+}
+.dropdown-menu{
+    position: relative;
+    left: 0;
+}
+.w-sub-menu{
+    width: 100%;
+}
+.dropdown-submenu:focus,.dropdown-item:focus{
+    background-color: #fff;
+}
+.dropdown-submenu:active, .dropdown-item:active{
+    background-color: #fff;
+}
+.dropdown-item:hover{
+    background-color: #fff;
+}
+
+/* ====== Content warrper====== */
+/* css banner */
+.img-banner-right{
+    width: 10%;
+}
+.skew-l {  
+    width: 50%;
+    transform: rotateY(15deg) rotateX(5deg) rotateZ(-5deg) translate3d(10px,60px,10px);
+}
+/* end css banner */
+
+/* css view-website */
+.img-view-website{
+    width: 10%;
+}
+.link-view-website{
+    text-decoration: none ;
+}
+/* end view-website */
+/* css view-product */
+.skew-r {  
+    width: 50%;
+    transform:  rotateY(-22deg) rotateX(6deg) rotateZ(5deg);
+}
+.img-product-right{
+    width: 10%;
+}
+/* end view-product */
+.skew-m {
+    width: 50%;
+    height: auto;
+}
+/*  */
+.img-view-client-saying{
+   
+    width: 80px;
+    transform:translate3d(5px,-100px,10px);
+}
+/* end view-client-saying */
+.zoom-1 {
+    width: 50px;
+}
+
+.checked {
+    color: #6672e8;
+}

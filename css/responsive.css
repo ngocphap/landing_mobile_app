@@ -1,0 +1,95 @@
+/*// Small devices ( landscape phones, <576px */
+
+@media (max-width:576px ) {
+    .skew-l {
+        width: 80%;
+    }
+    .skew-r {
+        width: 80%;
+    }
+    .skew-m {
+        width: 80%;
+    }
+    .header-submenu-ecommerce {
+        display: none;
+    }
+    .img-view-website{
+        width: 20%;
+    }
+   
+}
+/*// Small devices ( landscape phones, >576px */
+
+@media (min-width:576px ) {
+    .skew-l {
+        width: 80%;
+    }
+    .skew-r {
+        width: 80%;
+    }
+    .skew-m {
+        width: 80%;
+    }
+    .header-submenu-ecommerce {
+        display: none;
+    }
+    .img-view-website{
+        width: 20%;
+    }
+    div>a.text-9{
+        font-size: 14px;
+    }
+}
+
+/*// Medium devices (  tablets, >768px */
+
+@media (min-width:768px) {
+    .skew-l {
+        width: 70%;
+    }
+    .skew-r {
+        width: 40%;
+    }
+    .skew-m {
+        width: 70%;
+    }
+    .header-submenu-ecommerce {
+        display: none;
+    }
+    .img-view-website{
+        width: 20%;
+    }
+     div>a.text-9{
+         font-size: 14px;
+     }
+   
+}
+
+
+/*// Large devices ( desktop , >992px */
+
+@media (min-width:992px) {
+    .skew-l {
+        width: 50%;
+    }
+    .skew-r {
+        width: 50%;
+    }
+    .skew-m {
+        width: 50%;
+    }
+    .header-submenu-ecommerce {
+        display: block;
+    }
+    .img-view-website{
+        width: 10%;
+    }
+    div>a.text-9{
+        font-size: 15px;
+    }
+}
+
+
+/*// Extra large devices ( large desktop, >1200 */
+
+@media (min-width:1200) {}
